@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3935B15F1B2C9245006440A1 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3935B15E1B2C9245006440A1 /* Helper.swift */; };
+		3935B1611B2C9740006440A1 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3935B1601B2C9740006440A1 /* RegisterViewController.swift */; };
+		3969FD791B3A497900B24EFC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3969FD781B3A497900B24EFC /* Constant.swift */; };
+		396E27341B3DA41300753D0F /* ChooseTimeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396E27331B3DA41300753D0F /* ChooseTimeTableViewController.swift */; };
+		397BC16A1B3209DA0047F01F /* Stripe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 397BC1691B3209DA0047F01F /* Stripe.framework */; };
+		397BC16C1B3209F30047F01F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 397BC16B1B3209F30047F01F /* Security.framework */; };
+		397BC16E1B320A100047F01F /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 397BC16D1B320A100047F01F /* PassKit.framework */; };
+		397BC1711B3214A10047F01F /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397BC1701B3214A10047F01F /* Alamofire.swift */; };
+		397BC1731B3214B30047F01F /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397BC1721B3214B30047F01F /* Request.swift */; };
+		397BC1761B3214C60047F01F /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397BC1741B3214C60047F01F /* Download.swift */; };
+		397BC1771B3214C60047F01F /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397BC1751B3214C60047F01F /* Manager.swift */; };
+		397BC17C1B3214DE0047F01F /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397BC1781B3214DE0047F01F /* ParameterEncoding.swift */; };
+		397BC17D1B3214DE0047F01F /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397BC1791B3214DE0047F01F /* ResponseSerialization.swift */; };
+		397BC17E1B3214DE0047F01F /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397BC17A1B3214DE0047F01F /* Upload.swift */; };
+		397BC17F1B3214DE0047F01F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397BC17B1B3214DE0047F01F /* Validation.swift */; };
+		397BC1851B3312E80047F01F /* ChooseBuildingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397BC1841B3312E80047F01F /* ChooseBuildingTableViewController.swift */; };
+		397BC1871B3314830047F01F /* CampusTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397BC1861B3314830047F01F /* CampusTableViewCell.swift */; };
 		3980691E1B2B5506002DBA69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3980691D1B2B5506002DBA69 /* AppDelegate.swift */; };
 		398069201B2B5507002DBA69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3980691F1B2B5507002DBA69 /* ViewController.swift */; };
 		398069231B2B5507002DBA69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 398069211B2B5507002DBA69 /* Main.storyboard */; };
@@ -18,6 +35,13 @@
 		398069461B2B7352002DBA69 /* ECommerceSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398069451B2B7352002DBA69 /* ECommerceSelectorController.swift */; };
 		398069481B2B7F2C002DBA69 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398069471B2B7F2C002DBA69 /* ProductCell.swift */; };
 		3980694A1B2B7FEE002DBA69 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398069491B2B7FEE002DBA69 /* ShopViewController.swift */; };
+		3980694C1B2B9A78002DBA69 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3980694B1B2B9A78002DBA69 /* ProductDetailViewController.swift */; };
+		3980694E1B2BBF84002DBA69 /* CartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3980694D1B2BBF84002DBA69 /* CartCell.swift */; };
+		398069501B2BBFE0002DBA69 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3980694F1B2BBFE0002DBA69 /* CartViewController.swift */; };
+		398069821B2C75A0002DBA69 /* FinalOrderDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398069811B2C75A0002DBA69 /* FinalOrderDetailController.swift */; };
+		398069861B2C7B46002DBA69 /* PaymentShippingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398069851B2C7B46002DBA69 /* PaymentShippingViewController.swift */; };
+		39CB14931B31BDA9002547AD /* LuckKitchen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 39CB14911B31BDA9002547AD /* LuckKitchen.xcdatamodeld */; };
+		39CB14951B31BFAC002547AD /* ProductsInCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CB14941B31BFAC002547AD /* ProductsInCart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +55,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3935B15E1B2C9245006440A1 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		3935B1601B2C9740006440A1 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		3969FD781B3A497900B24EFC /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		396E27331B3DA41300753D0F /* ChooseTimeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseTimeTableViewController.swift; sourceTree = "<group>"; };
+		397BC1691B3209DA0047F01F /* Stripe.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Stripe.framework; path = "FrameworkSouce/StripeiOS-WithoutApplePay/Stripe.framework"; sourceTree = "<group>"; };
+		397BC16B1B3209F30047F01F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		397BC16D1B320A100047F01F /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		397BC1701B3214A10047F01F /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		397BC1721B3214B30047F01F /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		397BC1741B3214C60047F01F /* Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
+		397BC1751B3214C60047F01F /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		397BC1781B3214DE0047F01F /* ParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		397BC1791B3214DE0047F01F /* ResponseSerialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseSerialization.swift; sourceTree = "<group>"; };
+		397BC17A1B3214DE0047F01F /* Upload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Upload.swift; sourceTree = "<group>"; };
+		397BC17B1B3214DE0047F01F /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		397BC1841B3312E80047F01F /* ChooseBuildingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseBuildingTableViewController.swift; sourceTree = "<group>"; };
+		397BC1861B3314830047F01F /* CampusTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CampusTableViewCell.swift; sourceTree = "<group>"; };
 		398069181B2B5506002DBA69 /* LuckKitchen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuckKitchen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3980691C1B2B5506002DBA69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3980691D1B2B5506002DBA69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +87,13 @@
 		398069451B2B7352002DBA69 /* ECommerceSelectorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ECommerceSelectorController.swift; sourceTree = "<group>"; };
 		398069471B2B7F2C002DBA69 /* ProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		398069491B2B7FEE002DBA69 /* ShopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		3980694B1B2B9A78002DBA69 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		3980694D1B2BBF84002DBA69 /* CartCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartCell.swift; sourceTree = "<group>"; };
+		3980694F1B2BBFE0002DBA69 /* CartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		398069811B2C75A0002DBA69 /* FinalOrderDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalOrderDetailController.swift; sourceTree = "<group>"; };
+		398069851B2C7B46002DBA69 /* PaymentShippingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentShippingViewController.swift; sourceTree = "<group>"; };
+		39CB14921B31BDA9002547AD /* LuckKitchen.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LuckKitchen.xcdatamodel; sourceTree = "<group>"; };
+		39CB14941B31BFAC002547AD /* ProductsInCart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductsInCart.swift; path = LuckKitchen/ProductsInCart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +101,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				397BC16E1B320A100047F01F /* PassKit.framework in Frameworks */,
+				397BC16C1B3209F30047F01F /* Security.framework in Frameworks */,
+				397BC16A1B3209DA0047F01F /* Stripe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +117,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		397BC1681B32096B0047F01F /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				397BC16D1B320A100047F01F /* PassKit.framework */,
+				397BC16B1B3209F30047F01F /* Security.framework */,
+				397BC1691B3209DA0047F01F /* Stripe.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		397BC16F1B32131E0047F01F /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				397BC1781B3214DE0047F01F /* ParameterEncoding.swift */,
+				397BC1791B3214DE0047F01F /* ResponseSerialization.swift */,
+				397BC17A1B3214DE0047F01F /* Upload.swift */,
+				397BC17B1B3214DE0047F01F /* Validation.swift */,
+				397BC1721B3214B30047F01F /* Request.swift */,
+				397BC1741B3214C60047F01F /* Download.swift */,
+				397BC1751B3214C60047F01F /* Manager.swift */,
+				397BC1701B3214A10047F01F /* Alamofire.swift */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
 		3980690F1B2B5506002DBA69 = {
 			isa = PBXGroup;
 			children = (
+				39CB14941B31BFAC002547AD /* ProductsInCart.swift */,
 				3980691A1B2B5506002DBA69 /* LuckKitchen */,
 				398069301B2B5507002DBA69 /* LuckKitchenTests */,
 				398069191B2B5506002DBA69 /* Products */,
+				397BC1681B32096B0047F01F /* Framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,11 +165,12 @@
 		3980691A1B2B5506002DBA69 /* LuckKitchen */ = {
 			isa = PBXGroup;
 			children = (
+				397BC16F1B32131E0047F01F /* Vendor */,
 				398069441B2B731B002DBA69 /* Views */,
 				398069411B2B72A6002DBA69 /* Theme */,
 				3980693D1B2B721E002DBA69 /* Cells */,
 				3980691D1B2B5506002DBA69 /* AppDelegate.swift */,
-				3980691F1B2B5507002DBA69 /* ViewController.swift */,
+				39CB14911B31BDA9002547AD /* LuckKitchen.xcdatamodeld */,
 				398069211B2B5507002DBA69 /* Main.storyboard */,
 				398069241B2B5507002DBA69 /* Images.xcassets */,
 				398069261B2B5507002DBA69 /* LaunchScreen.xib */,
@@ -104,6 +183,8 @@
 			isa = PBXGroup;
 			children = (
 				3980691C1B2B5506002DBA69 /* Info.plist */,
+				3935B15E1B2C9245006440A1 /* Helper.swift */,
+				3969FD781B3A497900B24EFC /* Constant.swift */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -130,6 +211,8 @@
 			children = (
 				3980693E1B2B7227002DBA69 /* MetaCell */,
 				398069471B2B7F2C002DBA69 /* ProductCell.swift */,
+				3980694D1B2BBF84002DBA69 /* CartCell.swift */,
+				397BC1861B3314830047F01F /* CampusTableViewCell.swift */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -155,6 +238,14 @@
 			children = (
 				398069451B2B7352002DBA69 /* ECommerceSelectorController.swift */,
 				398069491B2B7FEE002DBA69 /* ShopViewController.swift */,
+				3980694B1B2B9A78002DBA69 /* ProductDetailViewController.swift */,
+				3980694F1B2BBFE0002DBA69 /* CartViewController.swift */,
+				398069811B2C75A0002DBA69 /* FinalOrderDetailController.swift */,
+				398069851B2C7B46002DBA69 /* PaymentShippingViewController.swift */,
+				3935B1601B2C9740006440A1 /* RegisterViewController.swift */,
+				397BC1841B3312E80047F01F /* ChooseBuildingTableViewController.swift */,
+				3980691F1B2B5507002DBA69 /* ViewController.swift */,
+				396E27331B3DA41300753D0F /* ChooseTimeTableViewController.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -259,13 +350,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				397BC17C1B3214DE0047F01F /* ParameterEncoding.swift in Sources */,
+				398069821B2C75A0002DBA69 /* FinalOrderDetailController.swift in Sources */,
 				398069201B2B5507002DBA69 /* ViewController.swift in Sources */,
+				397BC17E1B3214DE0047F01F /* Upload.swift in Sources */,
 				398069401B2B7239002DBA69 /* MetaCell.swift in Sources */,
+				396E27341B3DA41300753D0F /* ChooseTimeTableViewController.swift in Sources */,
+				39CB14931B31BDA9002547AD /* LuckKitchen.xcdatamodeld in Sources */,
+				39CB14951B31BFAC002547AD /* ProductsInCart.swift in Sources */,
+				398069501B2BBFE0002DBA69 /* CartViewController.swift in Sources */,
+				397BC1871B3314830047F01F /* CampusTableViewCell.swift in Sources */,
 				398069461B2B7352002DBA69 /* ECommerceSelectorController.swift in Sources */,
+				397BC1731B3214B30047F01F /* Request.swift in Sources */,
 				398069481B2B7F2C002DBA69 /* ProductCell.swift in Sources */,
 				3980691E1B2B5506002DBA69 /* AppDelegate.swift in Sources */,
+				398069861B2C7B46002DBA69 /* PaymentShippingViewController.swift in Sources */,
+				397BC1851B3312E80047F01F /* ChooseBuildingTableViewController.swift in Sources */,
+				3980694C1B2B9A78002DBA69 /* ProductDetailViewController.swift in Sources */,
+				397BC1761B3214C60047F01F /* Download.swift in Sources */,
+				3935B1611B2C9740006440A1 /* RegisterViewController.swift in Sources */,
 				3980694A1B2B7FEE002DBA69 /* ShopViewController.swift in Sources */,
+				3935B15F1B2C9245006440A1 /* Helper.swift in Sources */,
+				3969FD791B3A497900B24EFC /* Constant.swift in Sources */,
+				397BC1711B3214A10047F01F /* Alamofire.swift in Sources */,
+				3980694E1B2BBF84002DBA69 /* CartCell.swift in Sources */,
+				397BC17D1B3214DE0047F01F /* ResponseSerialization.swift in Sources */,
 				398069431B2B72B9002DBA69 /* MegaTheme.swift in Sources */,
+				397BC17F1B3214DE0047F01F /* Validation.swift in Sources */,
+				397BC1771B3214C60047F01F /* Manager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +504,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FrameworkSouce/StripeiOS-WithoutApplePay",
+				);
 				INFOPLIST_FILE = LuckKitchen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -402,6 +518,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FrameworkSouce/StripeiOS-WithoutApplePay",
+				);
 				INFOPLIST_FILE = LuckKitchen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -461,6 +581,7 @@
 				398069391B2B5507002DBA69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3980693A1B2B5507002DBA69 /* Build configuration list for PBXNativeTarget "LuckKitchenTests" */ = {
 			isa = XCConfigurationList;
@@ -469,8 +590,22 @@
 				3980693C1B2B5507002DBA69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		39CB14911B31BDA9002547AD /* LuckKitchen.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				39CB14921B31BDA9002547AD /* LuckKitchen.xcdatamodel */,
+			);
+			currentVersion = 39CB14921B31BDA9002547AD /* LuckKitchen.xcdatamodel */;
+			path = LuckKitchen.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 398069101B2B5506002DBA69 /* Project object */;
 }
