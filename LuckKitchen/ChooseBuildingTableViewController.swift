@@ -15,7 +15,7 @@ class ChooseBuildingTableViewController: UITableViewController, UITableViewDataS
     var selectedBuildingIndex: Int? = nil
     
     func loadBuildings() {
-        buildings = ["Duder MUJO", "BBB Lobby", "EECS Lobby", "GGB Addition", "FXB LOBBY"]
+        buildings = ["Duder MUJO", "BBB Lobby", "EECS Lobby", "GGB Addition", "FXB Lobby"]
     }
     
     override func viewDidLoad() {

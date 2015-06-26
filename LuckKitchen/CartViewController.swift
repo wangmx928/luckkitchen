@@ -67,7 +67,7 @@ class CartViewController : UIViewController, UITableViewDelegate, UITableViewDat
             let qty = product.qty
             total += Double(qty) *  Helper.strToDouble(product.price)!
         }
-        return String(format:"%.3f", total)
+        return String(format:"%.2f", total)
     }
     
     //?
@@ -183,6 +183,10 @@ class CartViewController : UIViewController, UITableViewDelegate, UITableViewDat
             var productDetailController = (segue.destinationViewController as! ProductDetailViewController)
             //here is a upcasting
             productDetailController.selectedProduct = selectedProduct
+        }
+        else if segue.identifier == "cartToPayment" {
+            var paymentController = segue.destinationViewController as! PaymentShippingViewController
+            paymentController.totalPrice = UInt(Helper.strToDouble(calculateTotal())! * 100)
         }
     }
     

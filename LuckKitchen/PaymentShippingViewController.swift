@@ -43,8 +43,8 @@ class PaymentShippingViewController: UITableViewController, UITextFieldDelegate,
     @IBAction func saveDeliverTime(segue:UIStoryboardSegue) {
         if let chooseTime = segue.sourceViewController as? ChooseTimeTableViewController {
             if chooseTime.seletcedTime == nil {
-                deliverTimeDetail.text = "12:00"
-                deliveryMsg["time"] = "12:00"
+                deliverTimeDetail.text = "Choose time"
+                deliveryMsg["time"] = nil
             }
             else {
                 deliverTimeDetail.text = chooseTime.seletcedTime
@@ -62,18 +62,22 @@ class PaymentShippingViewController: UITableViewController, UITextFieldDelegate,
     // To set this up, see https://github.com/stripe/example-ios-backend
     //let backendChargeURLString = "https://luckkitchen.herokuapp.com"
 
-    let totalPrice : UInt = 1000 // this is in cents
+    var totalPrice : UInt! // this is in cents
     
     @IBAction func beginPayment(sender: UIButton) {
-        
-        let options = STPCheckoutOptions(publishableKey: stripePublishableKey)
-        options.companyName = "LuckKitchen"
-        options.purchaseDescription = "Enjoy your dishes"
-        options.purchaseAmount = 100//change this
-        options.logoColor = UIColor.purpleColor()
-        let checkoutViewController = STPCheckoutViewController(options: options)
-        checkoutViewController.checkoutDelegate = self
-        presentViewController(checkoutViewController, animated: true, completion: nil)
+        if let time = deliveryMsg["time"] {
+            let options = STPCheckoutOptions(publishableKey: stripePublishableKey)
+            options.companyName = "LuckKitchen"
+            options.purchaseDescription = "Enjoy your dishes"
+            options.purchaseAmount = totalPrice
+            options.logoColor = UIColor.purpleColor()
+            let checkoutViewController = STPCheckoutViewController(options: options)
+            checkoutViewController.checkoutDelegate = self
+            presentViewController(checkoutViewController, animated: true, completion: nil)
+        }
+        else {
+            Helper.sendAlert("Please Choose Time!", message: "Please choose a deliver time")
+        }
     }
     
     
